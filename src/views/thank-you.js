@@ -12,8 +12,25 @@ const ThankYou = (props) => {
   return (
     <div className="thank-you-container">
       <Helmet>
-        <title>Thank-You - Swara Data Recovery</title>
-        <meta property="og:title" content="Thank-You - Swara Data Recovery" />
+        <title>
+          Thank-You - Swara Data Recovery: Rescuing Your Precious Data
+        </title>
+        <meta
+          name="description"
+          content='"Swara Data Recovery specializes in retrieving lost, damaged, or inaccessible data from various storage devices."'
+        />
+        <meta
+          property="og:title"
+          content="Thank-You - Swara Data Recovery: Rescuing Your Precious Data"
+        />
+        <meta
+          property="og:description"
+          content='"Swara Data Recovery specializes in retrieving lost, damaged, or inaccessible data from various storage devices."'
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/a43c71a7-ee75-4ba3-943d-8cdb70722e16/57c2ba33-3829-4a8d-9797-ea70ba12fe0a?org_if_sml=1"
+        />
       </Helmet>
       <header data-thq="thq-navbar" className="thank-you-navbar">
         <Link to="/" className="thank-you-navlink">

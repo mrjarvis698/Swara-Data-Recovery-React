@@ -12,8 +12,23 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Swara Data Recovery</title>
-        <meta property="og:title" content="Swara Data Recovery" />
+        <title>Swara Data Recovery: Rescuing Your Precious Data</title>
+        <meta
+          name="description"
+          content='"Swara Data Recovery specializes in retrieving lost, damaged, or inaccessible data from various storage devices."'
+        />
+        <meta
+          property="og:title"
+          content="Swara Data Recovery: Rescuing Your Precious Data"
+        />
+        <meta
+          property="og:description"
+          content='"Swara Data Recovery specializes in retrieving lost, damaged, or inaccessible data from various storage devices."'
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/a43c71a7-ee75-4ba3-943d-8cdb70722e16/57c2ba33-3829-4a8d-9797-ea70ba12fe0a?org_if_sml=1"
+        />
       </Helmet>
       <header data-thq="thq-navbar" className="home-navbar">
         <Link to="/" className="home-navlink">
@@ -55,7 +70,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/Icons/discord.svg"
-                className="home-image01"
+                className="home-image1"
               />
             </button>
           </div>
@@ -230,12 +245,17 @@ const Home = (props) => {
             </div>
             <div className="home-main">
               <div className="home-content01">
-                <h2 className="home-header01">Images</h2>
+                <h2 className="home-header01"> Images Recovery</h2>
                 <p className="home-description2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliquat
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi
+                  <span>
+                    Losing precious photos can be heart-wrenching, but Swara
+                    Data Recovery is here to help. Our experts specialize in
+                    recovering images from various storage devices, whether
+                    it&apos;s due to accidental deletion, formatting, or
+                    hardware issues. With advanced tools and techniques, we work
+                    tirelessly to bring back your cherished memories.
+                  </span>
+                  <br></br>
                 </p>
               </div>
             </div>
@@ -250,12 +270,17 @@ const Home = (props) => {
             </div>
             <div className="home-main1">
               <div className="home-content02">
-                <h2 className="home-header02">Documents</h2>
+                <h2 className="home-header02">Documents Retrieval</h2>
                 <p className="home-description3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliquat
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi
+                  <span className="home-text29">
+                    Important documents lost? Don&apos;t worry – Swara Data
+                    Recovery has you covered. Our skilled professionals excel at
+                    retrieving a wide range of documents, from critical work
+                    files to personal records. Whether it&apos;s a corrupted
+                    hard drive or a deleted folder, we&apos;re dedicated to
+                    restoring your essential data promptly and securely.
+                  </span>
+                  <br></br>
                 </p>
               </div>
             </div>
@@ -272,12 +297,17 @@ const Home = (props) => {
             </div>
             <div className="home-main2">
               <div className="home-content03">
-                <h2 className="home-header03">Files</h2>
+                <h2 className="home-header03">
+                  <span className="home-text31">File Recovery</span>
+                  <br></br>
+                </h2>
                 <p className="home-description4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliquat
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi
+                  Lost a crucial file? Trust Swara Data Recovery to retrieve it.
+                  Our experienced team is equipped to recover files of various
+                  types, sizes, and formats. Whether it&apos;s a presentation
+                  for work, an academic project, or a vital spreadsheet, our
+                  cutting-edge technology and expertise ensure that your files
+                  are back in your hands.
                 </p>
               </div>
             </div>
@@ -293,14 +323,19 @@ const Home = (props) => {
             <div className="home-main3">
               <div className="home-content04">
                 <h2 className="home-header04">
-                  <span className="home-text27">Videos</span>
+                  <span className="home-text33">Videos Restoration</span>
                   <br></br>
                 </h2>
                 <p className="home-description5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliquat
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi
+                  <span className="home-text35">
+                    Did a special video disappear unexpectedly? Swara Data
+                    Recovery can help you relive those moments. Our experts
+                    specialize in video recovery, whether it&apos;s home videos,
+                    professional footage, or any other type of video content.
+                    With our meticulous approach, we strive to bring back your
+                    videos intact and ready for you to enjoy.
+                  </span>
+                  <br></br>
                 </p>
               </div>
             </div>
@@ -311,7 +346,7 @@ const Home = (props) => {
             <div className="home-main4">
               <div className="home-content05">
                 <h2 className="home-header05">
-                  <span className="home-text29">
+                  <span className="home-text37">
                     Get your
                     <span
                       dangerouslySetInnerHTML={{
@@ -319,30 +354,24 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text30">Home/Office</span>
-                  <br className="home-text31"></br>
-                  <span className="home-text32">
+                  <span className="home-text38">Home/Office</span>
+                  <br className="home-text39"></br>
+                  <span className="home-text40">
                     Critical Data Recovered Safely.
                   </span>
-                  <br className="home-text33"></br>
+                  <br className="home-text41"></br>
                 </h2>
                 <p className="home-description6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliquat
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi
+                  {' '}
+                  Our expert team utilizes advanced techniques to recover files,
+                  images, documents, and videos, ensuring the safe return of
+                  your valuable data. With a commitment to excellence, Swara
+                  Data Recovery is your trusted partner in bringing back what
+                  matters most.
                 </p>
               </div>
-              <button className="home-learn button">
-                <span className="home-text34">Learn more</span>
-                <img
-                  alt="image"
-                  src="/Icons/arrow-2.svg"
-                  className="home-image02"
-                />
-              </button>
             </div>
-            <img alt="image" src="/bhg.svg" className="home-image03" />
+            <img alt="image" src="/bhg.svg" className="home-image2" />
           </div>
         </div>
       </section>
@@ -361,20 +390,16 @@ const Home = (props) => {
             </div>
             <button className="home-view2 button-link button">
               <span>Learn More</span>
-              <img
-                alt="image"
-                src="/Icons/arrow.svg"
-                className="home-image04"
-              />
+              <img alt="image" src="/Icons/arrow.svg" className="home-image3" />
             </button>
           </div>
-          <img alt="image" src="/group%202415.svg" className="home-image05" />
+          <img alt="image" src="/group%202415.svg" className="home-image4" />
         </div>
         <div className="home-mining">
           <img
             alt="image"
             src="/supported_devices.svg"
-            className="home-image06"
+            className="home-image5"
           />
           <div className="home-content07">
             <div className="home-heading2">
@@ -397,11 +422,7 @@ const Home = (props) => {
             </div>
             <button className="home-view3 button-link button">
               <span>Learn More</span>
-              <img
-                alt="image"
-                src="/Icons/arrow.svg"
-                className="home-image07"
-              />
+              <img alt="image" src="/Icons/arrow.svg" className="home-image6" />
             </button>
           </div>
         </div>
@@ -435,7 +456,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/Characters/character-9.svg"
-                className="home-image08"
+                className="home-image7"
               />
             </div>
           </div>
@@ -444,7 +465,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/Characters/character-10.svg"
-                className="home-image09"
+                className="home-image8"
               />
             </div>
           </div>
