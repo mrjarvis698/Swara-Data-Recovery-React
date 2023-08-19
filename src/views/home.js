@@ -343,6 +343,7 @@ const Home = (props) => {
         </div>
         <div className="home-card4">
           <div className="home-row2">
+            <img alt="image" src="/bhg.svg" className="home-image2" />
             <div className="home-main4">
               <div className="home-content05">
                 <h2 className="home-header05">
@@ -371,7 +372,6 @@ const Home = (props) => {
                 </p>
               </div>
             </div>
-            <img alt="image" src="/bhg.svg" className="home-image2" />
           </div>
         </div>
       </section>
@@ -396,35 +396,26 @@ const Home = (props) => {
           <img alt="image" src="/group%202415.svg" className="home-image4" />
         </div>
         <div className="home-mining">
-          <img
-            alt="image"
-            src="/supported_devices.svg"
-            className="home-image5"
-          />
           <div className="home-content07">
             <div className="home-heading2">
               <h2 className="home-header08">All Types of Devices</h2>
               <p className="home-header09">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <br></br>
-                <br></br>
-                <span>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </span>
-                <br></br>
+                No matter the storage device, Swara Data Recovery is dedicated
+                to providing professional and effective data recovery solutions
+                that prioritize the security and retrieval of your valuable
+                data.
               </p>
             </div>
             <button className="home-view3 button-link button">
               <span>Learn More</span>
-              <img alt="image" src="/Icons/arrow.svg" className="home-image6" />
+              <img alt="image" src="/Icons/arrow.svg" className="home-image5" />
             </button>
           </div>
+          <img
+            alt="image"
+            src="/supported_devices.svg"
+            className="home-image6"
+          />
         </div>
       </section>
       <section className="home-join-us">
