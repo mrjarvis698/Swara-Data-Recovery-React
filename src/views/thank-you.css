@@ -41,17 +41,17 @@
   align-items: center;
   flex-direction: row;
 }
-.thank-you-button {
+.thank-you-link {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-.thank-you-button1 {
+.thank-you-navlink1 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-.thank-you-button2 {
+.thank-you-link1 {
   color: rgb(255, 255, 255);
-}
-.thank-you-button3 {
-  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .thank-you-btn-group {
   gap: var(--dl-space-space-fourunits);
@@ -59,21 +59,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
-.thank-you-socials {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.thank-you-image {
-  width: 100px;
-  object-fit: cover;
-}
-.thank-you-image1 {
-  width: 100px;
-  object-fit: cover;
 }
 .thank-you-view {
   text-decoration: none;
@@ -224,11 +209,6 @@
   justify-content: flex-start;
   background-color: #8FA7DF;
 }
-.thank-you-lottie-node {
-  width: 50%;
-  height: 50%;
-  align-self: center;
-}
 .thank-you-content1 {
   gap: var(--dl-space-space-unit);
   width: 75%;
@@ -238,6 +218,11 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.thank-you-lottie-node {
+  width: 50%;
+  height: 50%;
+  align-self: center;
 }
 .thank-you-header {
   color: rgb(0, 0, 0);
@@ -263,7 +248,7 @@
   font-family: Fira Sans;
   font-weight: 400;
 }
-.thank-you-navlink1 {
+.thank-you-navlink2 {
   width: 15%;
   height: 100%;
   align-self: center;
@@ -327,7 +312,7 @@
   width: 25px;
   object-fit: cover;
 }
-.thank-you-link1 {
+.thank-you-link3 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -369,7 +354,7 @@
   .thank-you-lottie-node {
     height: 50%;
   }
-  .thank-you-navlink1 {
+  .thank-you-navlink2 {
     width: 25%;
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
@@ -388,7 +373,7 @@
   .thank-you-burger-menu {
     display: flex;
   }
-  .thank-you-button4 {
+  .thank-you-button {
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
@@ -406,10 +391,10 @@
   .thank-you-container3 {
     width: 100%;
   }
-  .thank-you-lottie-node {
+  .thank-you-content1 {
     width: 100%;
   }
-  .thank-you-content1 {
+  .thank-you-lottie-node {
     width: 100%;
   }
   .thank-you-header {
@@ -421,7 +406,7 @@
   .thank-you-header2 {
     font-size: 20px;
   }
-  .thank-you-navlink1 {
+  .thank-you-navlink2 {
     text-align: center;
     padding-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-halfunit);
@@ -454,11 +439,11 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .thank-you-lottie-node {
-    width: 100%;
-  }
   .thank-you-content1 {
     align-items: center;
+  }
+  .thank-you-lottie-node {
+    width: 100%;
   }
   .thank-you-header {
     font-size: 42px;
@@ -472,7 +457,7 @@
     font-size: 20px;
     text-align: center;
   }
-  .thank-you-navlink1 {
+  .thank-you-navlink2 {
     margin-top: 0px;
   }
   .thank-you-text09 {
@@ -527,7 +512,7 @@
   .thank-you-header2 {
     font-size: 18px;
   }
-  .thank-you-navlink1 {
+  .thank-you-navlink2 {
     width: 25%;
   }
   .thank-you-text08 {

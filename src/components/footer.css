@@ -31,11 +31,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.footer-navlink {
+  display: contents;
+}
 .footer-logo {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
+  text-decoration: none;
 }
 .footer-caption {
   color: rgb(255, 255, 255);
@@ -48,20 +52,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
-.footer-twitter {
-  text-decoration: none;
-}
-.footer-image {
-  width: 100px;
-  object-fit: cover;
-}
-.footer-discord {
-  text-decoration: none;
-}
-.footer-image1 {
-  width: 100px;
-  object-fit: cover;
 }
 .footer-links {
   gap: 120px;
@@ -89,48 +79,7 @@
 }
 .footer-link {
   color: rgb(255, 255, 255);
-}
-.footer-link1 {
-  color: rgb(255, 255, 255);
-}
-.footer-link2 {
-  color: rgb(255, 255, 255);
-}
-.footer-link3 {
-  color: rgb(255, 255, 255);
-}
-.footer-list1 {
-  gap: var(--dl-space-space-threeunits);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.footer-heading2 {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-}
-.footer-items1 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.footer-link4 {
-  color: rgb(255, 255, 255);
-}
-.footer-link5 {
-  color: rgb(255, 255, 255);
-}
-.footer-link6 {
-  color: rgb(255, 255, 255);
-}
-.footer-link7 {
-  color: rgb(255, 255, 255);
-}
-.footer-link8 {
-  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .footer-socials1 {
   gap: var(--dl-space-space-unit);
@@ -139,17 +88,17 @@
   flex-direction: row;
   justify-content: center;
 }
-.footer-twitter1 {
+.footer-twitter {
   text-decoration: none;
 }
-.footer-image2 {
+.footer-image {
   width: 100px;
   object-fit: cover;
 }
-.footer-discord1 {
+.footer-discord {
   text-decoration: none;
 }
-.footer-image3 {
+.footer-image1 {
   width: 100px;
   object-fit: cover;
 }
@@ -192,9 +141,6 @@
     justify-content: flex-start;
   }
   .footer-list {
-    gap: var(--dl-space-space-oneandhalfunits);
-  }
-  .footer-list1 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
   .footer-socials1 {

@@ -49,43 +49,30 @@ const ThankYou = (props) => {
             data-role="Nav"
             className="thank-you-nav"
           >
-            <button className="thank-you-button button-clean button">
+            <a
+              href="https://swaradatarecovery.teleporthq.app/#Services"
+              className="thank-you-link button-clean button"
+            >
               Services
-            </button>
-            <button className="thank-you-button1 button-clean button">
-              Shop
-            </button>
-            <button className="thank-you-button2 button-clean button">
+            </a>
+            <Link
+              to="/about-us"
+              className="thank-you-navlink1 button-clean button"
+            >
               About
-            </button>
-            <button className="thank-you-button3 button-clean button">
+            </Link>
+            <a href="#Contact" className="thank-you-link1 button-clean button">
               Contact
-            </button>
+            </a>
           </nav>
         </div>
         <div data-thq="thq-navbar-btn-group" className="thank-you-btn-group">
-          <div className="thank-you-socials">
-            <button className="social button">
-              <img
-                alt="image"
-                src="/Icons/twitter.svg"
-                className="thank-you-image"
-              />
-            </button>
-            <button className="social button">
-              <img
-                alt="image"
-                src="/Icons/discord.svg"
-                className="thank-you-image1"
-              />
-            </button>
-          </div>
           <Link to="/quote" className="thank-you-view button">
             Quote
           </Link>
         </div>
         <div data-thq="thq-burger-menu" className="thank-you-burger-menu">
-          <button className="button thank-you-button4">
+          <button className="button thank-you-button">
             <svg viewBox="0 0 1024 1024" className="thank-you-icon">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
@@ -147,24 +134,23 @@ const ThankYou = (props) => {
         <div className="thank-you-content">
           <div className="thank-you-container3">
             <div className="thank-you-card">
-              <Player
-                src="https://lottie.host/33df12c4-6024-4489-9cd4-0bb9384aa40f/yUv5DVltHw.json"
-                loop
-                speed="1"
-                autoplay
-                background="transparent"
-                className="thank-you-lottie-node"
-              ></Player>
               <div className="thank-you-content1">
+                <Player
+                  src="https://lottie.host/42a55798-fcea-4f9b-aa49-65dbabc174bc/riPxZadkl9.json"
+                  speed="0.2"
+                  autoplay
+                  background="transparent"
+                  className="thank-you-lottie-node"
+                ></Player>
                 <h2 className="thank-you-header">Thank You!</h2>
                 <label className="thank-you-header1">
                   We Have got your Response. Our Technicals will connect very
                   soon.
                 </label>
                 <label className="thank-you-header2">
-                  Feel Free to Explore your services.
+                  Feel Free to Explore our services.
                 </label>
-                <Link to="/" className="thank-you-navlink1 button">
+                <Link to="/" className="thank-you-navlink2 button">
                   <span className="thank-you-text08">
                     <span className="thank-you-text09">Explore !</span>
                     <br></br>
@@ -199,7 +185,7 @@ const ThankYou = (props) => {
                 <span>Follow us on Twitter</span>
                 <img
                   alt="image"
-                  src="/Icons/arrow.svg"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="thank-you-arrow"
                 />
               </a>
@@ -207,12 +193,12 @@ const ThankYou = (props) => {
                 href="https://discord.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="thank-you-link1 button-link button"
+                className="thank-you-link3 button-link button"
               >
                 <span>Join us on Discord</span>
                 <img
                   alt="image"
-                  src="/Icons/arrow.svg"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="thank-you-arrow1"
                 />
               </a>
@@ -220,7 +206,7 @@ const ThankYou = (props) => {
           </div>
         </div>
       </section>
-      <footer className="thank-you-footer">
+      <footer id="Contact" className="thank-you-footer">
         <Footer rootClassName="footer-root-class-name1"></Footer>
       </footer>
       <div className="thank-you-accordion">

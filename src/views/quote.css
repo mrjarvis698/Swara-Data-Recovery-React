@@ -41,17 +41,17 @@
   align-items: center;
   flex-direction: row;
 }
-.quote-button {
+.quote-link {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-.quote-button1 {
+.quote-navlink1 {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-.quote-button2 {
+.quote-link1 {
   color: rgb(255, 255, 255);
-}
-.quote-button3 {
-  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 .quote-btn-group {
   gap: var(--dl-space-space-fourunits);
@@ -59,21 +59,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-}
-.quote-socials {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.quote-image {
-  width: 100px;
-  object-fit: cover;
-}
-.quote-image1 {
-  width: 100px;
-  object-fit: cover;
 }
 .quote-view {
   text-decoration: none;
@@ -415,7 +400,7 @@
   border-radius: 0px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.quote-button5 {
+.quote-button1 {
   width: 15%;
   height: 100%;
   align-self: center;
@@ -479,7 +464,7 @@
   width: 25px;
   object-fit: cover;
 }
-.quote-link1 {
+.quote-link3 {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -521,7 +506,7 @@
   .quote-lottie-node {
     height: 50%;
   }
-  .quote-button5 {
+  .quote-button1 {
     width: 15%;
   }
   .quote-text09 {
@@ -538,7 +523,7 @@
   .quote-burger-menu {
     display: flex;
   }
-  .quote-button4 {
+  .quote-button {
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
@@ -648,7 +633,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .quote-button5 {
+  .quote-button1 {
     text-align: center;
     padding-top: var(--dl-space-space-halfunit);
     padding-left: var(--dl-space-space-halfunit);
@@ -695,7 +680,7 @@
     font-size: 20px;
     text-align: center;
   }
-  .quote-button5 {
+  .quote-button1 {
     margin-top: 0px;
   }
   .quote-text09 {

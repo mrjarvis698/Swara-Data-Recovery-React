@@ -47,39 +47,27 @@ const Quote = (props) => {
             data-role="Nav"
             className="quote-nav"
           >
-            <button className="quote-button button-clean button">
+            <a
+              href="https://swaradatarecovery.teleporthq.app/#Services"
+              className="quote-link button-clean button"
+            >
               Services
-            </button>
-            <button className="quote-button1 button-clean button">Shop</button>
-            <button className="quote-button2 button-clean button">About</button>
-            <button className="quote-button3 button-clean button">
+            </a>
+            <Link to="/about-us" className="quote-navlink1 button-clean button">
+              About
+            </Link>
+            <a href="#Contact" className="quote-link1 button-clean button">
               Contact
-            </button>
+            </a>
           </nav>
         </div>
         <div data-thq="thq-navbar-btn-group" className="quote-btn-group">
-          <div className="quote-socials">
-            <button className="social button">
-              <img
-                alt="image"
-                src="/Icons/twitter.svg"
-                className="quote-image"
-              />
-            </button>
-            <button className="social button">
-              <img
-                alt="image"
-                src="/Icons/discord.svg"
-                className="quote-image1"
-              />
-            </button>
-          </div>
           <Link to="/quote" className="quote-view button">
             Quote
           </Link>
         </div>
         <div data-thq="thq-burger-menu" className="quote-burger-menu">
-          <button className="button quote-button4">
+          <button className="button quote-button">
             <svg viewBox="0 0 1024 1024" className="quote-icon">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
             </svg>
@@ -296,7 +284,7 @@ const Quote = (props) => {
                       className="quote-textarea textarea"
                     ></textarea>
                   </div>
-                  <button type="submit" className="quote-button5 button">
+                  <button type="submit" className="quote-button1 button">
                     <span className="quote-text08">
                       <span className="quote-text09">Submit</span>
                       <br></br>
@@ -363,7 +351,7 @@ const Quote = (props) => {
                 <span>Follow us on Twitter</span>
                 <img
                   alt="image"
-                  src="/Icons/arrow.svg"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="quote-arrow"
                 />
               </a>
@@ -371,12 +359,12 @@ const Quote = (props) => {
                 href="https://discord.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="quote-link1 button-link button"
+                className="quote-link3 button-link button"
               >
                 <span>Join us on Discord</span>
                 <img
                   alt="image"
-                  src="/Icons/arrow.svg"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="quote-arrow1"
                 />
               </a>
@@ -384,7 +372,7 @@ const Quote = (props) => {
           </div>
         </div>
       </section>
-      <footer className="quote-footer">
+      <footer id="Contact" className="quote-footer">
         <Footer rootClassName="footer-root-class-name"></Footer>
       </footer>
       <div className="quote-accordion">
