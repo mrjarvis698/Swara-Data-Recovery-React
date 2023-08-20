@@ -28,32 +28,7 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div className="footer-socials1">
-          <a
-            href={props.link_Twitter}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="footer-twitter social button"
-          >
-            <img
-              alt={props.image_alt}
-              src={props.image_src}
-              className="footer-image"
-            />
-          </a>
-          <a
-            href={props.link_Discord}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="footer-discord social button"
-          >
-            <img
-              alt={props.image_alt1}
-              src={props.image_src1}
-              className="footer-image1"
-            />
-          </a>
-        </div>
+        <div className="footer-socials1"></div>
       </div>
       <span className="footer-copyright">{props.Copyright}</span>
     </footer>

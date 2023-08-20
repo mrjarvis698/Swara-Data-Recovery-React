@@ -102,7 +102,6 @@ const Home = (props) => {
                 About
               </Link>
             </nav>
-            <div className="home-container2"></div>
           </div>
         </div>
       </header>
@@ -115,7 +114,7 @@ const Home = (props) => {
           background="transparent"
           className="home-lottie-node"
         ></Player>
-        <div className="home-container3">
+        <div className="home-container2">
           <div className="home-heading">
             <h1 className="home-header">
               <span className="home-text06">Recover</span>
@@ -164,7 +163,7 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-description">
-        <div className="home-container4">
+        <div className="home-container3">
           <div className="home-description1">
             <div className="home-content">
               <p className="home-paragraph">
@@ -423,7 +422,7 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <div id="Contact" className="home-container5">
+      <div id="Contact" className="home-container4">
         <Footer></Footer>
       </div>
       <div className="home-accordion">

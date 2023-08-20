@@ -88,20 +88,6 @@
   flex-direction: row;
   justify-content: center;
 }
-.footer-twitter {
-  text-decoration: none;
-}
-.footer-image {
-  width: 100px;
-  object-fit: cover;
-}
-.footer-discord {
-  text-decoration: none;
-}
-.footer-image1 {
-  width: 100px;
-  object-fit: cover;
-}
 .footer-copyright {
   color: rgb(255, 255, 255);
   font-size: 12px;
